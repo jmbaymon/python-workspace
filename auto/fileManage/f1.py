@@ -1,6 +1,6 @@
 #Organizing Files
 import shutil, os
-import send2trash
+# import send2trash
 # sets the directory 
 os.chdir('/home/jmbaymon/Documents/code')
 
@@ -21,8 +21,4 @@ os.chdir('/home/jmbaymon/Documents/code')
 # Delete file
 # send2trash.send2trash('we1.txt')
 
-for root, dirs, files in os.walk(".", topdown=False):
-   for name in files:
-      print(os.path.join(root, name))
-   for name in dirs:
-      print(os.path.join(root, name))
+
