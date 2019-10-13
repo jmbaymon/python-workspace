@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Flask	web/flask-workspace/app.py	/^from flask import Flask, render_template$/;"	i
+__init__	courseswithTIM/car.py	/^    def __init__(self, make, model, year, condition, kms):$/;"	m	class:car
+app	web/flask-workspace/app.py	/^app = Flask(__name__)$/;"	v
+argv	auto/fileManage/regex2.py	/^from sys import argv$/;"	i
+batRegex	auto/fileManage/regex.py	/^batRegex = re.compile(r'Bat(man|mobile|copter|bat)')$/;"	v
+batRegex2	auto/fileManage/regex.py	/^batRegex2 = re.compile(r'Bat(wo)?man')$/;"	v
+batRegex3	auto/fileManage/regex.py	/^batRegex3 = re.compile(r'Bat(wo)*man')$/;"	v
+batRegex4	auto/fileManage/regex.py	/^batRegex4 = re.compile(r'Bat(wo)+man')$/;"	v
+call	courseswithTIM/chained.py	/^call = func()$/;"	v
+call	courseswithTIM/chained.py	/^call = func2("tim")$/;"	v
+car	courseswithTIM/car.py	/^class car(object):$/;"	c
+display	courseswithTIM/car.py	/^    def display(self, showAll):$/;"	m	class:car
+exists	auto/fileManage/regex2.py	/^from os.path import exists$/;"	i
+func	courseswithTIM/chained.py	/^def func(x=1):$/;"	f
+func2	courseswithTIM/chained.py	/^def func2(word ,add=5,freq=1):$/;"	f
+heroRegex	auto/fileManage/regex.py	/^heroRegex = re.compile(r'Batman|Tina Fey')$/;"	v
+index	web/flask-workspace/app.py	/^def index():$/;"	f
+isAreaCode	auto/fileManage/notRegex.py	/^def isAreaCode(text):$/;"	f
+mo	auto/fileManage/regex.py	/^mo = phoneNumRegex.search('My number is 478-432-5643')$/;"	v
+mo1	auto/fileManage/regex.py	/^mo1 = heroRegex.search ('Batman and Tina Fey')$/;"	v
+mo10	auto/fileManage/regex.py	/^mo10 = batRegex4.search('The Adventures of Batwowowowwowman')$/;"	v
+mo11	auto/fileManage/regex.py	/^mo11 = batRegex4.search('The Adventures of Batman')$/;"	v
+mo2	auto/fileManage/regex.py	/^mo2 = heroRegex.search ('Tina Fey and Batman')$/;"	v
+mo3	auto/fileManage/regex.py	/^mo3 = batRegex.search('Batmobile lost a wheel.Get the Batcopter')$/;"	v
+mo4	auto/fileManage/regex.py	/^mo4 = batRegex2.search('The Adventures of Batman')$/;"	v
+mo5	auto/fileManage/regex.py	/^mo5 = batRegex2.search('The Adventures of Batwoman')$/;"	v
+mo6	auto/fileManage/regex.py	/^mo6 = batRegex3.search('The Adventures of Batman')$/;"	v
+mo7	auto/fileManage/regex.py	/^mo7 = batRegex3.search('The Adventures of Batwoman')$/;"	v
+mo8	auto/fileManage/regex.py	/^mo8 = batRegex3.search('The Adventures of Batwowowowowoman')$/;"	v
+mo9	auto/fileManage/regex.py	/^mo9 = batRegex4.search('The Adventures of Batwoman')$/;"	v
+os	auto/fileManage/f1.py	/^import shutil, os$/;"	i
+os	auto/fileManage/f2.py	/^import os$/;"	i
+phoneNumRegex	auto/fileManage/regex.py	/^phoneNumRegex = re.compile(r'(\\d\\d\\d)-(\\d\\d\\d-\\d\\d\\d\\d)')$/;"	v
+phoneNumRegex	auto/fileManage/regex.py	/^phoneNumRegex = re.compile(r'\\d\\d\\d-\\d\\d\\d-\\d\\d\\d\\d')$/;"	v
+re	auto/fileManage/regex.py	/^import re$/;"	i
+re	auto/fileManage/regex2.py	/^import re$/;"	i
+render_template	web/flask-workspace/app.py	/^from flask import Flask, render_template$/;"	i
+showArgs	auto/fileManage/regex2.py	/^def showArgs(arg1,arg2):$/;"	f
+shutil	auto/fileManage/f1.py	/^import shutil, os$/;"	i
