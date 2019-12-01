@@ -3,6 +3,7 @@
 
 def main():
     game = [ 'Rock', 'Paper', 'Scissors', 'Lizard', 'Spock' ]
+    print(game[1:3])
     print_list(game)
 
 def print_list(o):

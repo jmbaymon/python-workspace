@@ -1,6 +1,7 @@
 number = input("Enter a Number: ")
 
 
+
 def collatz(number):
     try:
         number = int(number)

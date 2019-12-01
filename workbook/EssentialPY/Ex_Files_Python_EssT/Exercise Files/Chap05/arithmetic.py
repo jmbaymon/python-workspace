@@ -3,6 +3,11 @@
 
 x = 5
 y = 3
-z = x + y
+# z = x + y
+# z = x - y
+# z = x * y
+# z = x / y
+# z = x // y
+z = x % y
 
 print(f'result is {z}')
