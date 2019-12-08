@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": ".fenv/bin/python3.7",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#14079C",
+        "titleBar.activeBackground": "#1C09DA",
+        "titleBar.activeForeground": "#FCFCFF"
+    }
+}
